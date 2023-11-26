@@ -48,3 +48,7 @@ Unity側ではjsonファイルのソースコードに従って命令を一つ�
 ![StageSelectImage](https://github.com/N-Keisho/QRCoder/assets/133760530/76ad5fba-2358-4b57-867a-a10ffe2f1d73)
 ### プレイ画面
 ![PlayImage](https://github.com/N-Keisho/QRCoder/assets/133760530/7c6d0190-8f8d-41b0-88f9-83661d5b8dcb)
+### カード
+![CardImage](https://github.com/N-Keisho/QRCoder/assets/133760530/28814fdc-6c8a-4b21-9190-bc1f8a28e67e)
+## カードを並べた様子
+![LineTheCardsUpImage](https://github.com/N-Keisho/QRCoder/assets/133760530/10687ec8-e7dd-4ddc-9a08-d2f36d988e7d)
