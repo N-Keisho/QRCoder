@@ -22,7 +22,7 @@ IDが発行されるので、ステージ画面右上のID欄に入れて実行'
 - userID : KogUser1
 - pass : t3PS9mkg
 
-### カード
+### カード配布先
 - URL : [https://drive.google.com/drive/folders/19hNjCJRkBRtTVV3RQvDUYK_HXTp6JdTn](https://drive.google.com/drive/folders/19hNjCJRkBRtTVV3RQvDUYK_HXTp6JdTn)
 
 ## ショートカット
