@@ -16,6 +16,9 @@ public class ConfigScript : MonoBehaviour
     public TMP_InputField intervalInput;
     public TMP_InputField rotateSpeedInput;
     public TMP_InputField passInput;
+
+    // Local用追記部分
+    public TMP_InputField serverAdressInput;
     
 
     public TransitionSettings transition;
@@ -35,6 +38,9 @@ public class ConfigScript : MonoBehaviour
         stepSizeInput.text = savedatamanager.savedata.StepSize.ToString();
         intervalInput.text = savedatamanager.savedata.Interval.ToString();
         rotateSpeedInput.text = savedatamanager.savedata.RotateSpeed.ToString();
+
+        // Local用追記部分
+        serverAdressInput.text = savedatamanager.savedata.ServerUrl;
     }
 
     // Update is called once per frame
@@ -94,6 +100,13 @@ public class ConfigScript : MonoBehaviour
         if ( passInput.text == "KogCoder"){
             TransitionManager.Instance().Transition("Scenes/StageEx", transition, loadDelay);
         }
+    }
+
+    // Local用追記部分
+    public void ServerAdressChaged(){
+        savedatamanager.savedata.ServerUrl = serverAdressInput.text;
+        savedatamanager.Save();
+        Debug.Log("ServerAdressChaged : " + serverAdressInput.text);
     }
 
 }

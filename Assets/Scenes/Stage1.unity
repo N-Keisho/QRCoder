@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.024579782, g: 0.02237117, b: 0.069681846, a: 1}
+  m_IndirectSpecularColor: {r: 0.024261886, g: 0.022027196, b: 0.068878844, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -143,7 +143,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1137147957730466896, guid: 44d8902ede12e1c4aac880d968055a55, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1137147957730466896, guid: 44d8902ede12e1c4aac880d968055a55, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1015,6 +1015,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 2355730023209640307, guid: c26987f6db4b5f848b7a368bd4c76e62, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2355730023266320675, guid: c26987f6db4b5f848b7a368bd4c76e62, type: 3}
       propertyPath: m_fontAsset
       value: 
@@ -1178,7 +1182,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2787654936531997516, guid: 13d99e7a87e98a046924a237d9183534, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 2787654936531997516, guid: 13d99e7a87e98a046924a237d9183534, type: 3}
       propertyPath: m_LocalPosition.x
