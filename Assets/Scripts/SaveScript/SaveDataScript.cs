@@ -16,14 +16,15 @@ public class SaveDataScript : MonoBehaviour
 
         // ファイルがないとき、ファイル作成
         if (!File.Exists(filepath)) {
-            savedata.ServerUrl = "https://8sai.kogcoder.com";
-            savedata.StepSize = 4.0f;
+            savedata.ServerUrl = "https://10-9sai.kogcoder.com";
+            savedata.StepSize = 6.0f;
             savedata.Interval = 0.5f;
+            savedata.RotateSpeed = 600f;
             savedata.SelectedStage = 0;
             Save();
         }
 
-        savedata.ServerUrl = "https://8sai.kogcoder.com";
+        savedata.ServerUrl = "https://10-9sai.kogcoder.com";
         // ファイルを読み込んでdataに格納
         savedata = Load(filepath);          
     }
